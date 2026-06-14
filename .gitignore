@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+
+# Node
+node_modules/
+dist/
+
+# Docker
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
