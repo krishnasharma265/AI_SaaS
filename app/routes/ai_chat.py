@@ -114,7 +114,7 @@ async def chat_with_ai(
             status_code=429,detail="daily limit exceeds"
         )
 
-    current=redis_client.incr(quota_key )
+    current=used+1
 
 
     if current==1:
